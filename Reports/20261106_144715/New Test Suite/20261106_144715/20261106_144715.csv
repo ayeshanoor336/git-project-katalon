@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Edge Chromium 156,,,06-11-2026 14:47:23,06-11-2026 14:49:14,1m - 50.546s,FAILED
+,,,,,,,
+Test Cases/New Test Case (1),Edge Chromium 156,,,06-11-2026 14:48:04,06-11-2026 14:48:28,24.020s,FAILED
+"openBrowser("""")",Edge Chromium 156,,,06-11-2026 14:48:04,06-11-2026 14:48:07,2.531s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 156,,,06-11-2026 14:48:07,06-11-2026 14:48:25,18.514s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Edge Chromium 156,,,06-11-2026 14:48:25,06-11-2026 14:48:27,1.295s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control""))",Edge Chromium 156,,,06-11-2026 14:48:27,06-11-2026 14:48:27,0.408s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Edge Chromium 156,,,06-11-2026 14:48:27,06-11-2026 14:48:28,0.762s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control_1""), ""ThisIsNotAPassword"")",Edge Chromium 156,,,06-11-2026 14:48:28,06-11-2026 14:48:28,0.449s,FAILED
+,,,,,,,
+Test Cases/New Test Case,Edge Chromium 156,,,06-11-2026 14:49:02,06-11-2026 14:49:14,11.467s,FAILED
+"openBrowser("""")",Edge Chromium 156,,,06-11-2026 14:49:02,06-11-2026 14:49:05,2.523s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 156,,,06-11-2026 14:49:05,06-11-2026 14:49:11,5.595s,PASSED
+"click(findTestObject(""Object Repository/Case1/Page_CURA Healthcare Service/a_Make Appointment""))",Edge Chromium 156,,,06-11-2026 14:49:11,06-11-2026 14:49:12,1.455s,PASSED
+"click(findTestObject(""Object Repository/Case1/Page_CURA Healthcare Service/input_Demo account_form-control""))",Edge Chromium 156,,,06-11-2026 14:49:12,06-11-2026 14:49:12,0.405s,PASSED
+"setText(findTestObject(""Object Repository/Case1/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Edge Chromium 156,,,06-11-2026 14:49:12,06-11-2026 14:49:13,0.716s,PASSED
+"setText(findTestObject(""Object Repository/Case1/Page_CURA Healthcare Service/input_Demo account_form-control_1""), ""ThisIsNotAPassword"")",Edge Chromium 156,,,06-11-2026 14:49:13,06-11-2026 14:49:14,0.729s,FAILED
